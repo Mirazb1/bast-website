@@ -64,7 +64,7 @@ nav ul li a:hover{
 .searchbox input{
     float: right;
     color: #fff;
-    margin: -35px 60px;
+    margin: -42px 80px;
     width: 207px;
     height: 30px;
     background: transparent;
@@ -86,7 +86,7 @@ nav ul li a:hover{
 }
 .icon{
     float:right;
-    margin: -35px 60px;
+    margin: -35px 85px;
 }
 
 .icon i{
@@ -112,3 +112,138 @@ nav ul li a:hover{
 p.icon1 {
     margin: 24px 10px;
 }
+
+
+.box2{
+    display: flex;
+    margin-top: 40px;
+}
+.login-box{
+    width: 250px;
+    height: 350px;
+    margin:  0 40px;
+    border: 5px solid #ff6b14;
+    border-radius: 5%;
+    background: radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    color: #fff;
+    padding: 10px 10px;
+    transform: 2.3s ease;
+}
+
+.login-box:hover{
+    border:5px solid rgba(255, 255, 255, 0.699) ;
+}
+
+.login-box h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    color: #ff6b14;
+}
+
+.login-box input{
+    width: 90%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    letter-spacing: 1px;
+    transform: 0.9s ease;
+}
+
+.login-box input:hover{
+    border-bottom: 2px solid #ff6b14;
+}
+
+
+.login-box ::placeholder{
+    color: #fff;
+}
+
+
+.login-box h5 a{
+    color: rgba(255, 0, 0, 0.911);
+    text-decoration: none;
+}
+
+.login-box h5 a:hover{
+    color: greenyellow;
+}
+
+.login-box h4{
+    color:tomato;
+}
+
+.login-box button{
+    margin-left: 80px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+    background: #ff6b14;
+    color: #fff;
+}
+
+.login-box button:hover{
+    color: #fff;
+    background:linear-gradient(#eea57af5,#ff6b14);
+}
+
+.desc{
+    width: 410px;
+    height: 340px;
+    border: 5px solid #ff6b14;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.desc:hover{
+    border: 5px solid rgba(255, 255, 255, 0.842);
+}
+
+.desc h1{
+    color: #ff6b14;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.desc p{
+    color: #fff;
+}
+
+.desc button{
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-family: cursive;
+    margin: 20px 4px;
+    background: rgba(189, 229, 128, 0.76);
+    transform: 02s ease;
+}
+
+.desc button:hover{
+    color:wheat;
+    background: rgba(255, 99, 71, 0.829);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
