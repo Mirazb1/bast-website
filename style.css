@@ -1,0 +1,114 @@
+
+
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* এইটা দিয়ে ভোগে নিয়ে যেতে হয়*/
+    font-family: cursive;
+    margin-top: 25px;
+}
+
+.box{
+    width: 930px;
+    height: 530px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 30px rgba(255,255,255,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);  /* এইডে দিয়ে ঘোলা করতে হয়*/
+    
+}
+
+i{
+    position: relative;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    transform: 1.9s ease;
+}
+
+i:hover{
+    color: #000;
+}
+
+nav{
+    width: 60%;
+    background-color: #ff6b14;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: #000;
+
+}
+
+.searchbox input{
+    float: right;
+    color: #fff;
+    margin: -35px 60px;
+    width: 207px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.searchbox ::placeholder, .searchbox input{
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+.searchbox input:hover{
+    border-bottom:2px solid #ff6b14 ;
+}
+.icon{
+    float:right;
+    margin: -35px 60px;
+}
+
+.icon i{
+    font-size: 20px;
+    color: #fff;
+    transform: 0.9s ease;
+}
+
+.icon i:hover{
+    color: #ff6b14;
+}
+
+.social-media{
+    float: right;
+    width: 80px;
+    height: 230px;
+    background-color: #ff6b14;
+    margin-top: 226px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+p.icon1 {
+    margin: 24px 10px;
+}
